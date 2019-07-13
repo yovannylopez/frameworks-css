@@ -1,0 +1,146 @@
+/**********************
+      Helpers 
+***********************/
+
+  .chip {
+    display: inline-block;
+    height: auto;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #e4e4e4;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: auto;
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+  
+  .rounded {
+    border-radius: 1em;
+  }
+
+  .thumbnail{
+    border: 0.5em solid #999999;
+    border-radius: 1em;
+    border-color: #FFFFFF;
+  }
+
+  .section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    height: auto;
+    padding: 0.3em;
+    width: 100%;
+  }
+
+  .divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+  }
+  span.badge {   
+      border-radius: 0.5em;
+      color: #fff;
+      float: right;
+      font-size: 1rem;
+      font-weight: 300;
+      height: 2em;
+      margin: 0.4em;
+      padding: 0.5em;
+      text-align: center;
+      width: auto;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    
+    span.badge.badge-red {
+      background-color: #c62828;
+    }
+
+    span.badge.badge-pink {
+      background-color: #ad1457;
+    }
+
+    span.badge.badge-purple {
+      background-color: #6a1b9a;
+    }
+
+    span.badge.badge-blue {
+      background-color: #1565c0;
+    }
+
+    span.badge.badge-cyan {
+      background-color: #00838f;
+    }
+
+    span.badge.badge-teal {
+      background-color: #26a69a;
+    }
+
+    span.badge.badge-green {
+      background-color: #2e7d32;
+    }
+
+    span.badge.badge-lime {
+      background-color: #9e9d24;
+    }
+
+    span.badge.badge-yellow {
+      background-color: #ffeb3b;
+    }
+
+    span.badge.badge-orange {
+      background-color: #ef6c00;
+    }
+
+    span.badge.badge-brown {
+      background-color: #6d4c41;
+    }
+
+    span.badge.badge-grey {
+      background-color: #424242;
+    }
+
+    span.badge.badge-black {
+      background-color: #000000;
+    }
+
+    span.badge.badge-white {
+      background-color: #fafafa;
+      border: 1px solid #999999;
+      color: #000000;
+    }
+
+    .profile {
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      font-size: 0.8em;
+      height: auto;
+      margin: 0.5em;
+      padding: 0;
+      text-align: center;
+      width: 60%;
+    
+      -moz-column-count: 2;
+      -moz-column-gap: 0;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 0;
+      column-count: 2;
+      column-gap: 0;
+    }
+
+    blockquote{
+      background-color: rgba(34, 36, 38, 0.05);
+      border: 0;
+      border-left: .3rem solid #00838f;
+      color: #655d5d;
+      padding: 0.5rem;
+    }
+
+    
+

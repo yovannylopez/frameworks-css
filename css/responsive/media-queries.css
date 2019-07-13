@@ -1,0 +1,224 @@
+/*********************
+  Media Query Classes
+**********************/
+@media only screen and (max-width: 600px) {
+    .hide-on-small-only, .hide-on-small-and-down {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .hide-on-med-and-down {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+    .hide-on-med-and-up {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 992px) {
+    .hide-on-med-only {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .hide-on-large-only {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .show-on-large {
+      display: block !important;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 992px) {
+    .show-on-medium {
+      display: block !important;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .show-on-small {
+      display: block !important;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+    .show-on-medium-and-up {
+      display: block !important;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .show-on-medium-and-down {
+      display: block !important;
+    }
+  }
+
+  .flow-text {
+    font-weight: 300;
+  }
+  
+  @media only screen and (min-width: 360px) {
+    .flow-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media only screen and (min-width: 390px) {
+    .flow-text {
+      font-size: 1.224rem;
+    }
+  }
+  
+  @media only screen and (min-width: 420px) {
+    .flow-text {
+      font-size: 1.248rem;
+    }
+  }
+  
+  @media only screen and (min-width: 450px) {
+    .flow-text {
+      font-size: 1.272rem;
+    }
+  }
+  
+  @media only screen and (min-width: 480px) {
+    .flow-text {
+      font-size: 1.296rem;
+    }
+  }
+  
+  @media only screen and (min-width: 510px) {
+    .flow-text {
+      font-size: 1.32rem;
+    }
+  }
+  
+  @media only screen and (min-width: 540px) {
+    .flow-text {
+      font-size: 1.344rem;
+    }
+  }
+  
+  @media only screen and (min-width: 570px) {
+    .flow-text {
+      font-size: 1.368rem;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .flow-text {
+      font-size: 1.392rem;
+    }
+  }
+  
+  @media only screen and (min-width: 630px) {
+    .flow-text {
+      font-size: 1.416rem;
+    }
+  }
+  
+  @media only screen and (min-width: 660px) {
+    .flow-text {
+      font-size: 1.44rem;
+    }
+  }
+  
+  @media only screen and (min-width: 690px) {
+    .flow-text {
+      font-size: 1.464rem;
+    }
+  }
+  
+  @media only screen and (min-width: 720px) {
+    .flow-text {
+      font-size: 1.488rem;
+    }
+  }
+  
+  @media only screen and (min-width: 750px) {
+    .flow-text {
+      font-size: 1.512rem;
+    }
+  }
+  
+  @media only screen and (min-width: 780px) {
+    .flow-text {
+      font-size: 1.536rem;
+    }
+  }
+  
+  @media only screen and (min-width: 810px) {
+    .flow-text {
+      font-size: 1.56rem;
+    }
+  }
+  
+  @media only screen and (min-width: 840px) {
+    .flow-text {
+      font-size: 1.584rem;
+    }
+  }
+  
+  @media only screen and (min-width: 870px) {
+    .flow-text {
+      font-size: 1.608rem;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .flow-text {
+      font-size: 1.632rem;
+    }
+  }
+  
+  @media only screen and (min-width: 930px) {
+    .flow-text {
+      font-size: 1.656rem;
+    }
+  }
+  
+  @media only screen and (min-width: 960px) {
+    .flow-text {
+      font-size: 1.68rem;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    .flow-text {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .pagination {
+      width: 100%;
+    }
+    .pagination li.prev,
+    .pagination li.next {
+      width: 10%;
+    }
+    .pagination li.pages {
+      width: 80%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+
+
+  /***********************
+    img, video responsive
+  ************************/
+  img.responsive-img,
+  video.responsive-video {
+    max-width: 100%;
+    height: auto;
+  }
+  

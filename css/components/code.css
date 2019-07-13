@@ -1,0 +1,27 @@
+
+code {
+    background-color: rgba(245, 245, 245, 1);
+    font-size: 90%;
+}
+
+code, code .tag, code .title {
+    color: rgba(75, 131, 206, 1);
+}
+
+code .attribute{
+    color: rgba(68,140,39,1);
+    font-weight: normal;
+}
+
+.value{
+    color: #000000;
+}
+  
+  pre {
+    border-left: 0.3rem solid #999999;
+  }
+  
+  pre > code {
+    border-radius: 0;
+    display: block;
+  }

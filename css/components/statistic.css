@@ -1,0 +1,38 @@
+
+
+  /*******************************
+            Statistic
+*******************************/
+
+.statistic {
+  position: relative;
+  height: 120px;
+  width: 200px;
+  margin: 1em 0em;
+  
+  text-align: center;
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.22) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.value{
+  height: 90px;
+  width: 130px;
+  float: left;
+  line-height: 60px;
+}
+
+.item{
+  height: 30px;
+  width: 200px;
+  float: left;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+
+.icon{
+  height: 90px;
+  width: 70px;
+  float: left;
+  opacity: 0.5;
+  line-height: 120px;
+}

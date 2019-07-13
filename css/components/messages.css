@@ -1,0 +1,59 @@
+/***********************
+     Messages 
+ **********************/
+
+.message {
+    border-radius: 2px;
+    font-size: 0.8em;
+    margin: 0.5rem;
+    padding: 0.5em;
+    position: relative;
+  }
+
+  .message.message-green {
+    background: #f1f8e9;
+    border: 1px solid #8bc34a;
+    color: #33691e; 
+  }
+
+  .message.message-blue {
+    background: #e3f2fd;
+    border: 1px solid #42a5f5;
+    color: #0d47a1;
+  }
+
+  .message.message-lime {
+    background: #f9fbe7;
+    border: 1px solid #c0ca33;
+    color: #827717;
+  }
+
+  .message.message-red {
+    background: #FFCDD2;
+    border: 1px solid #EF5350;
+    color: #C62828;
+  }
+
+  .message.message-black {
+    background: #000000;
+    border: 1px solid #999999;
+    color: #FFFFFF;
+  }
+
+  .message.message-grey {
+    background: #eeeeee;
+    border: 1px solid #757575;
+    color: #424242;
+  }
+
+  .message.message-yellow {
+    background: #FFF59D;
+    border: 1px solid #FDD835;
+    color: #F9A825;
+  }
+
+  .message.message-orange {
+    background: #FFCC80;
+    border: 1px solid #FFA726;
+    color: #EF6C00;
+  }

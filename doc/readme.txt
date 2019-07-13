@@ -1,0 +1,1 @@
+Esta carpeta solamente está destinada para la documentación del framework.

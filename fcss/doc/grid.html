@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs">
+                <h1>Grid</h1>
+            </div>
+            <div class="col-xs">
+                <a href="../index.html" class="navegacion">Inicio</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="doc">
+        <div class="row">
+            <h1>.col</h1>
+            <p>Por medio de clases se especifican diferentes tamaños de columnas con la clase xs, sm, md y lg. Haciendo uso
+                de la propiedad de "flexbox" de CSS, los anchos basados ​​en porcentajes permiten el redimensionamiento fluido
+                de columnas y filas.</p>
+        </div>
+
+        <h3>.col-xs .col-sm .col-md .col-lg
+        </h3>
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <p class="demo">class="col-xs-6 col-md-3"</p>
+            </div>
+            <div class="col-xs-6 col-md-9">
+                <p class="demo">class="col-xs-6 col-md-9"</p>
+            </div>
+
+            <div class="col-xs-12 col-md-4 ">
+                <p class="demo">class="col-xs-12 col-md-4"</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <p class="demo">class="col-xs-12 col-md-4"</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <p class="demo">class="col-xs-12 col-md-4"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="doc">
+        <h1>.offset</h1>
+        <p>Utilizamos la clase .offset para desplazar columnas hacia la derecha.</p>
+        <div class="row">
+            <div class="col-xs-offset-9 col-xs-3">
+                <p class="demo">class="col-xs-offset-9 col-xs-3"</p>
+            </div>
+            <div class="col-xs-offset-6 col-xs-6">
+                <p class="demo">class="col-xs-offset-6 col-xs-6"</p>
+            </div>
+            <div class="col-xs-offset-3 col-xs-9">
+                <p class="demo">class="col-xs-offset-3 col-xs-9"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="doc">
+        <h1>Tamaño automático</h1>
+        <p>Utilizamos las clase .xs, .sm, .md o .lg sin definir la cantidad de columnas, se caulcurá automáticamente el tamaño
+            de la misma.</p>
+        <div class="row">
+            <div class="col-xs">
+                <p class="demo">class="col-xs"</p>
+            </div>
+            <div class="col-xs">
+                <p class="demo">class="col-xs"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="doc">
+        <h1>Alineación</h1>
+        <p>Agregue clases para alinear elementos al principio o al final de una fila así como a la parte superior, inferior
+            o centro de una columna.</p>
+
+        <h3>Horizontal</h3>
+        <div class="divider"></div>
+        <div class="row start-xs">
+            <div class="col-xs-6">
+                <p class="demo-align">
+                    class="row start-xs"
+                </p>
+            </div>
+        </div>
+        <div class="row center-xs">
+            <div class="col-xs-6">
+                <p class="demo-align">
+                    class="row center-xs"
+                </p>
+            </div>
+        </div>
+        <div class="row end-xs">
+            <div class="col-xs-6">
+                <p class="demo-align">
+                    class="row end-xs"
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="doc">
+        <h1>Distribución</h1>
+        <p>Agregue clases para distribuir el contenido de una fila o columna.</p>
+        <h3>.around</h3>
+        <div class="row around-xs">
+            <div class="col-xs-2">
+                <p class="demo">
+                    class="around"
+                </p>
+            </div>
+            <div class="col-xs-2">
+                <p class="demo">
+                    class="around"
+                </p>
+            </div>
+            <div class="col-xs-2">
+                <p class="demo">
+                    class="around"
+                </p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <h3>.between</h3>
+        <div class="row between-xs">
+            <div class="col-xs-2">
+                <p class="demo">
+                    class="between"
+                </p>
+            </div>
+            <div class="col-xs-2">
+                <p class="demo">
+                    class="between"
+                </p>
+            </div>
+            <div class="col-xs-2">
+                <p class="demo">
+                    class="between"
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs">
+                <a href="../index.html" class="navegacion">Inicio</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
